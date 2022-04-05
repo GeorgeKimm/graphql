@@ -1,6 +1,6 @@
 const express = require("express");
 const { graphqlHTTP } = require("express-graphql");
-const schema = require("../schema/schema.js");
+const schema = require("../schema/schema.js"); // импортирует query и mutationyy
 const mongoose = require("mongoose");
 
 const app = express();
